@@ -1,1 +1,1 @@
-# LLM-Chatbot-with-Vector-Search-RAG-System-
+# LLM Chatbot with Vector Search (RAG-System)
