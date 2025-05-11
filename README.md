@@ -24,7 +24,7 @@ Everything runs **locally** and **free**, using [Ollama](https://ollama.com) to 
 | Embeddings      | `sentence-transformers` (MiniLM)         |
 | Vector DB       | `faiss-cpu`                              |
 | Web Scraping    | `requests` + `BeautifulSoup`             |
-| Data Cleaning   | `pandas´                                 |                  
+| Data Cleaning   | `pandas`                                 |                  
 | UI              | `Streamlit`                              |
 | Language        | Python                                   |
 
