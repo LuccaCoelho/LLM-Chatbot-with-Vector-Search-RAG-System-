@@ -41,8 +41,28 @@ Everything runs **locally** and **free**, using [Ollama](https://ollama.com) to 
 ```bash
 git clone https://github.com/LuccaCoelho/LLM-Chatbot-with-Vector-Search-RAG-System-.git
 cd LLM-Chatbot-with-Vector-Search-RAG-System-
-
+```
 ### 2. Install Ollama
 
 [Download Ollama](https://ollama.com/download) and install it for your OS. Then
 ```bash
+ollama pull llama3
+```
+
+### 3. Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run Ollama in the Background
+
+```bash
+ollama run llama3
+```
+
+### 5. Run the Application
+
+```bash
+streamlit run app.py
+```
