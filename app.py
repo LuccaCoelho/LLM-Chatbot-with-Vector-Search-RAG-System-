@@ -28,6 +28,7 @@ if "bot" in st.session_state:
     query = st.chat_input("What is your question?")
 
     if query:
+        st.write(query)
         with st.spinner("Thinking..."):
             response = st.session_state.bot.generate_response(query, st.session_state.chunk, st.session_state.index, st.session_state.embeddings)
 

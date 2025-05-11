@@ -1,11 +1,21 @@
 import faiss
-import requests
+import ollama
 from sentence_transformers import SentenceTransformer
 
 
 class LLMChatBot:
         def __init__(self, embedding_model= "sentence-transformers/all-MiniLM-L6-v2"):
             self.embedding_model = SentenceTransformer(embedding_model)
+
+        @staticmethod
+        def query_llama3(prompt, model="llama3"):
+            response = ollama.generate(
+                model=model,
+                prompt=prompt,
+                stream=False
+            )
+
+            return response["response"]
 
         def embedded_and_faiss_index(self, chunk_df):
             texts = chunk_df["text"].tolist()
@@ -25,13 +35,6 @@ class LLMChatBot:
 
             prompt = f"Use the following context to find the answer tot he question: \n {context}.\n Question: {query} \n Answer: "
 
-            response = requests.post(
-                "http://localhost:11434/api/generate",
-                json={
-                    "model": "llama3",
-                    "prompt": prompt,
-                    "stream": False
-                }
-            )
+            response = self.query_llama3(prompt)
 
-            return response.json()["response"].strip()
+            return response
