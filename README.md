@@ -30,10 +30,6 @@ Everything runs **locally** and **free**, using [Ollama](https://ollama.com) to 
 
 ---
 
-## 💻 Try Out on Streamlit
-
-[LLaMA 3 Chatbot](https://study-bot.streamlit.app/)
-
 ## 🛠️ Set Up on Your Machine
 
 ### 1. Clone the Repo
