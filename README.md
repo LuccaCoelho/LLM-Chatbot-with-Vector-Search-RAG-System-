@@ -37,6 +37,12 @@ Everything runs **locally** and **free**, using [Ollama](https://ollama.com) to 
 ## 🛠️ Set Up on Your Machine
 
 ### 1. Clone the Repo
+
 ```bash
-git clone https://github.com/your-username/llama-url-chatbot.git
-cd llama-url-chatbot
+git clone https://github.com/LuccaCoelho/LLM-Chatbot-with-Vector-Search-RAG-System-.git
+cd LLM-Chatbot-with-Vector-Search-RAG-System-
+
+### 2. Install Ollama
+
+[Download Ollama](https://ollama.com/download) and install it for your OS. Then
+```bash
