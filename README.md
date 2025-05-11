@@ -28,10 +28,8 @@ Everything runs **locally** and **free**, using [Ollama](https://ollama.com) to 
 | UI              | `Streamlit`                              |
 | Language        | Python                                   |
 
+---
 
+## 💻 Try Out
 
-
-
-
-
-https://study-bot.streamlit.app/
+[LLaMA 3 Chatbo](https://study-bot.streamlit.app/)
