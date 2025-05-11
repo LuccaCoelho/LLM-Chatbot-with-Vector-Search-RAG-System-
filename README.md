@@ -30,6 +30,13 @@ Everything runs **locally** and **free**, using [Ollama](https://ollama.com) to 
 
 ---
 
-## 💻 Try Out
+## 💻 Try Out on Streamlit
 
-[LLaMA 3 Chatbo](https://study-bot.streamlit.app/)
+[LLaMA 3 Chatbot](https://study-bot.streamlit.app/)
+
+## 🛠️ Set Up on Your Machine
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/llama-url-chatbot.git
+cd llama-url-chatbot
