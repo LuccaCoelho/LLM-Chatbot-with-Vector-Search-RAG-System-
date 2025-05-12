@@ -1,4 +1,4 @@
-# 🔗 LLaMA 3 Chatbot for Any URL
+# 🔗 LLaMA 3 Chatbot for Any URL with Vector Search (RAG)
 
 This is a local, private chatbot that allows you to input any URL and ask questions about its content using **LLaMA 3**, **FAISS**, and **Sentence Transformers**.
 
