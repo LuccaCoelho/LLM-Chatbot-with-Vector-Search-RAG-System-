@@ -4,11 +4,11 @@ from src.llm_engine import LLMChatBot
 import streamlit as st
 
 
-st.title("CHATBOT with Vector Search")
+st.title("LLaMA 3 Chatbot for Any URL")
 
-st.write("### Input Data")
+st.write("### RAG System with Vector Search")
 
-url = st.text_input("What page would you like to parse?")
+url = st.text_input("Input an URL where LLaMA 3 will get its context from.")
 
 if url and st.button("Load URL"):
     content = load_website(url)
@@ -25,7 +25,7 @@ if url and st.button("Load URL"):
     st.markdown("Page loaded successfully")
 
 if "bot" in st.session_state:
-    query = st.chat_input("What is your question?")
+    query = st.chat_input("Ask anything related to your URL")
 
     if query:
         st.write(query)
