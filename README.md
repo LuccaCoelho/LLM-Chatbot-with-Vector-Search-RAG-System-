@@ -64,7 +64,7 @@ streamlit run app.py
 ```
 
 ---
-## Project Structure
+## 📂 Project Structure
 ```bash
 LLM-Chatbot-with-Vector-Search-RAG-System-/
 ├── app.py                 ← Streamlit app
