@@ -62,3 +62,15 @@ ollama run llama3
 ```bash
 streamlit run app.py
 ```
+
+---
+## Project Structure
+```bash
+LLM-Chatbot-with-Vector-Search-RAG-System-/
+├── app.py                 ← Streamlit app
+├── requirements.txt
+└── src/
+    ├── chunker.py         ← Chunk long text into passages
+    ├── loader.py          ← Scrape and clean URL content
+    └── llm_engine.py      ← Embedding, retrieval, and LLM answering
+```
