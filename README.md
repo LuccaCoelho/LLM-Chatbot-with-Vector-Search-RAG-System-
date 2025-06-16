@@ -74,3 +74,8 @@ LLM-Chatbot-with-Vector-Search-RAG-System-/
     ├── loader.py          ← Scrape and clean URL content
     └── llm_engine.py      ← Embedding, retrieval, and LLM answering
 ```
+
+
+## Project FLowchart
+
+![ChatGPT Image Jun 15, 2025, 10_15_14 PM](https://github.com/user-attachments/assets/6a4f7197-2636-4b2e-8d17-f31d727b5c70)
